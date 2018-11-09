@@ -11,11 +11,9 @@ At first, the turning was by hand but after that i used twiddler algorithm to fi
 ## PID Controller
 
 The PID control scheme is named after its three correcting terms, whose sum constitutes the manipulated variable (MV). The proportional, integral, and derivative terms are summed to calculate the output of the PID controller.
-{\displaystyle K_{\text{p}}} is the proportional gain, a tuning parameter,
-{\displaystyle K_{\text{i}}} {\displaystyle K_{\text{i}}} is the integral gain, a tuning parameter,
-{\displaystyle K_{\text{d}}} {\displaystyle K_{\text{d}}} is the derivative gain, a tuning parameter,
-{\displaystyle e(t)=\mathrm {SP} -\mathrm {PV} (t)} is the error (SP is the setpoint, and PV(t) is the process variable)
-https://wikimedia.org/api/rest_v1/media/math/render/svg/53a9c91f350230da3fbc5d00b6d47e026802cb63
+Kp is the proportional gain, a tuning parameter,
+Ki is the integral gain, a tuning parameter,
+Kd is the derivative gain, a tuning parameter,
 
 Proportional term
 The proportional term produces an output value that is proportional to the current error value. The proportional response can be adjusted by multiplying the error by a constant Kp, called the proportional gain constant. It's teh easiest one to tune and notice. It' effect appear when we don't steer enough or steer to the other side.  
@@ -27,7 +25,9 @@ The derivative of the process error is calculated by determining the slope of th
 
 ## Tuning of PID
 I started with Manual tuning so i could have a base to ran the turning algorithm on.
-Effects of increasing a parameter independently
+
+# Effects of increasing a parameter independently
+
 | Parameter	Rise time | Overshoot | Settling time | Steady-state | error | Stability | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Kp | Decrease | Increase | Small change | Decrease | Degrade | 
