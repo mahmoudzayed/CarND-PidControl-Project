@@ -28,10 +28,10 @@ The derivative of the process error is calculated by determining the slope of th
 ## Tuning of PID
 I started with Manual tuning so i could have a base to ran the turning algorithm on.
 Effects of increasing a parameter independently
-Parameter	Rise time	Overshoot	Settling time	Steady-state error	Stability
-{\displaystyle K_{p}} K_{p}	Decrease	Increase	Small change	Decrease	Degrade
-{\displaystyle K_{i}} K_{i}	Decrease	Increase	Increase	Eliminate	Degrade
-{\displaystyle K_{d}} K_{d}	Minor change	Decrease	Decrease	No effect in theory	Improve if {\displaystyle K_{d}} K_{d} small
+| Parameter	Rise time | Overshoot | Settling time | Steady-state | error | Stability | 
+| Kp | Decrease | Increase | Small change | Decrease | Degrade | 
+| Ki | K_{i}| Decrease | Increase | Increase | Eliminate| Degrade| 
+| Kd | Minor | change | Decrease | Decrease | No effect in theory | Improve if Kd small | 
 
 
 ## Dependencies
