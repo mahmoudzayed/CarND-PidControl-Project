@@ -31,8 +31,8 @@ I started with Manual tuning so i could have a base to ran the turning algorithm
 | Parameter	Rise time | Overshoot | Settling time | Steady-state | error | Stability | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Kp | Decrease | Increase | Small change | Decrease | Degrade | 
-| Ki | K_{i}| Decrease | Increase | Increase | Eliminate| Degrade| 
-| Kd | Minor | change | Decrease | Decrease | No effect in theory | Improve if Kd small | 
+| Ki | Decrease | Increase | Increase | Eliminate| Degrade| 
+| Kd | Minor change | Decrease | Decrease | No effect in theory | Improve if Kd small | 
 
 
 ## Dependencies
