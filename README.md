@@ -3,12 +3,12 @@ Self-Driving Car Engineer Nanodegree Program
 
 ---
 
-##intro
+## intro
 
 This repository conatins C++ code for implementation of PID controller. This controller give the input to the steering wheel so it keep the car at the middle of the road.
 At first, the turning was by hand but after that i used twiddler algorithm to fine tune the performance.
 
-##PID Controller
+## PID Controller
 
 The PID control scheme is named after its three correcting terms, whose sum constitutes the manipulated variable (MV). The proportional, integral, and derivative terms are summed to calculate the output of the PID controller.
 {\displaystyle K_{\text{p}}} is the proportional gain, a tuning parameter,
@@ -29,6 +29,7 @@ The derivative of the process error is calculated by determining the slope of th
 I started with Manual tuning so i could have a base to ran the turning algorithm on.
 Effects of increasing a parameter independently
 | Parameter	Rise time | Overshoot | Settling time | Steady-state | error | Stability | 
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Kp | Decrease | Increase | Small change | Decrease | Degrade | 
 | Ki | K_{i}| Decrease | Increase | Increase | Eliminate| Degrade| 
 | Kd | Minor | change | Decrease | Decrease | No effect in theory | Improve if Kd small | 
